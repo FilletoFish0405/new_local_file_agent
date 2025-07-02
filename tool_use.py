@@ -21,8 +21,8 @@ class AIToolUseParser:
         }
         
         self.client = OpenAI(
-            api_key=api_key or "sk-7b8d720528754418bdfaf90e8143af3e",
-            base_url=base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+            api_key=api_key ",
+            base_url=base_url 
         )
         
         self.tools = self._define_tools()
